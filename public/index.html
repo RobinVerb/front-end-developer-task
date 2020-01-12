@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="../src/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Noordhollands Dagblad</title>
+</head>
+
+<body>
+
+  <nav class="nav-bar">
+    <div class="logo"></div>
+    <img src="logo.svg" alt="Noordhollands Dagblad" height="26" width="208" style="margin: 3px 27px;" />
+
+    <div id="menuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <div id="navSideBar" class="sideBar">
+    <p>test</p>
+  </div>
+
+  <div class="container">
+    <h1 class="title">Jan Blokhuijsen met achtervolgingsploeg buiten olympische finale</h1>
+
+    <div class="slideshow-container">
+
+      <div class="imgSlide fade">
+        <img src="../docs/images/img1.jpg" style="width:100%">
+        <div class="text">Van voor naar achter: Sven Kramer, Jan Blokhuijsenb en Patrick Roest in actie tijdens de halve finale.</div>
+        <i style="font-size:12px" class="fa">&#xf1f9; ANP</i>
+      </div>
+
+      <div class="imgSlide fade">
+        <img src="../docs/images/img2.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="imgSlide fade">
+        <img src="../docs/images/img3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="imgSlide fade">
+        <img src="../docs/images/img4.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="imgSlide fade">
+        <img src="../docs/images/img5.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <hr>
+    <div class="autorContainer">
+      <img class="imgAutor" src="../docs/images/avatar.png">
+      <div class="autorName">
+        <p class="auName">Pieter van den Hoogenband</p>
+        <p class="AutorDate">27 minuten geleden</p>
+      </div>
+
+      <hr>
+      <div class="socialContainer">
+        <button class="socialbtn fb" onclick="window.location.href = 'https://facebook.com';"><i class="fa fa-facebook-f"></i></button>
+        <button class="socialbtn twitter" onclick="window.location.href = 'https://twitter.com';"><i class="fa fa-twitter"></i></button>
+        <button class="socialbtn whatsapp" onclick="window.location.href = 'https://whatsapp.com';"><i class="fa fa-whatsapp"></i></button>
+        <button class="socialbtn email"><a href="mailto:noordhollandsdagblad@info.be?Subject=Mail%20from%20Website" target="_top" style="color:#ffffff;"><i class="fa fa-envelope"></i></a></button>
+        <button onclick="copyUrl()" class="socialbtn clipboard"><i class="fa fa-link"></i></button>
+      </div>
+      <hr>
+
+      <h3 class="label">ALKMAAR</h3>
+      <p class="introduction">De Nederlandse mannenploeg, met Jan Blokhuijsen, heeft het bij de Winterspelen in de halve finales.</p>
+        <p> Het Schaatstrio van Oranje moest woensdagmiddag in<a href="#">Gangneung</a> buigen.</p>
+        </div>
+    </div>
+
+
+    <script src="../src/index.js"></script>
+</body>
+
+</html>
